@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Cheeseburga';
+    src: url('./assets/fonts/CHEESEBURGA_demo.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .gradient-text {
+    background: linear-gradient(to bottom, #FFFF00, rgb(148, 255, 106));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0);
+}
+
+.text-shadow {
+   text-shadow: 3px 3px 0px black
+}
+
+.text-border {
+    -webkit-text-stroke: 2px black; /* Border width and color */
+    color: transparent; /* Makes the inside transparent */
+}
+
+
+  
+  
+
+  
